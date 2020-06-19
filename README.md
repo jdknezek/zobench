@@ -1,6 +1,6 @@
 # zobench
 
-Zobench is a simple benchmark library for Zig. It's inspired by [Go's testing.B](https://golang.org/pkg/testing/#B)
+Zobench is a simple benchmark library for Zig. It's inspired by [Go's testing.B](https://golang.org/pkg/testing/#B).
 
 ## Example
 
