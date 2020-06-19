@@ -118,6 +118,9 @@ pub const State = struct {
 
                 const prev_n = self.n;
                 var prev_ns = self.ns;
+                if (prev_ns == 0) {
+                    prev_ns = 1;
+                }
 
                 n = self.target_ns * prev_n / @as(usize, prev_ns);
                 n += n / 5;
